@@ -1,0 +1,29 @@
+header {
+background-color: rgb(48, 182, 206);
+text-align: center;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: lawngreen;
+margin: 5px;
+padding: 5px;
+}
+.input {
+background-color: rgb(111, 0, 255);
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 5px;
+padding: 5px;
+}
+.boxes {
+font-family: fantasy;
+justify-content: center;
+text-align: center;
+margin: 5px;
+padding: 5px;
+}
+p {
+    text-align: center;
+margin: 5px;
+padding: 5px;
+}
