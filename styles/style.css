@@ -1,5 +1,4 @@
 header {
-background-color: rgb(48, 182, 206);
 text-align: center;
 font-size: 30px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,7 +7,6 @@ margin: 5px;
 padding: 5px;
 }
 .input {
-background-color: rgb(111, 0, 255);
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -26,4 +24,10 @@ p {
     text-align: center;
 margin: 5px;
 padding: 5px;
+}
+.background {
+    background-image: image("../assets/wallpaper2you_58324.jpg");
+}
+.hiddentext {
+    
 }
