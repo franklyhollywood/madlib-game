@@ -16,6 +16,7 @@ const displayNoun2 = document.getElementById('noun2');
 const displayAdjective2 = document.getElementById('adjective2');
 const displayRelationship1 = document.getElementById('relationship1');
 const displayRelationship2 = document.getElementById('relationship2');
+const displayStory = document.getElementById('story');
 // const displayTransportation = document.getElementById('transportation');
 // const displayNoun3 = document.getElementById('noun3');
 // const displayNoun4 = document.getElementById('noun4');
@@ -54,6 +55,18 @@ function callback() {
     sync(input3, displayVerb1);
     sync(input4, displayProf);
     sync(input5, displayCity1);
+    sync(input6, displayCity2);
+    sync(input7, displayLocation);
+    sync(input8, displayAdjective1);
+    sync(input9, displayGame);
+    sync(input10, displayBuilding);
+    sync(input11, displayNoun2);
+    sync(input12, displayCity1);
+    sync(input13, displayCity1);
+    sync(input14, displayCity1);
+    sync(input15, displayCity1);
+
+    displayStory.classList.remove('hiddentext');
 }
 // // () => {
 //     displayNoun1.textContent = input1.value;
