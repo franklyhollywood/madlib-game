@@ -17,11 +17,22 @@ const displayPluralNoun = document.getElementById('plural-noun');
 const displayAdjective2 = document.getElementById('adjective2');
 const displayRelationship1 = document.getElementById('relationship1');
 const displayRelationship2 = document.getElementById('relationship2');
+<<<<<<< HEAD
 const displayTransportation = document.getElementById('transportation');
 const displayPluralNoun2 = document.getElementById('plural-noun2');
 const displayNoun3 = document.getElementById('noun3');
 const displayVerb2 = document.getElementById('verb2');
 const displayStory = document.getElementById('hidden-text');
+=======
+const displayStory = document.getElementById('story');
+// const displayTransportation = document.getElementById('transportation');
+// const displayNoun3 = document.getElementById('noun3');
+// const displayNoun4 = document.getElementById('noun4');
+// const displayVerb2 = document.getElementById('verb2');
+
+
+
+>>>>>>> ed92c2761b74826c7ed1a2d965a98592cd271fb9
 
 const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
@@ -58,6 +69,7 @@ function callback() {
     sync(input6, displayCity2);
     sync(input7, displayLocation);
     sync(input8, displayAdjective1);
+<<<<<<< HEAD
     sync(input9, displaySport);
     sync(input10, displayBuilding);
     sync(input11, displayNoun2);
@@ -70,6 +82,17 @@ function callback() {
     sync(input18, displayNoun3);
     sync(input19, displayVerb2);
     
+=======
+    sync(input9, displayGame);
+    sync(input10, displayBuilding);
+    sync(input11, displayNoun2);
+    sync(input12, displayCity1);
+    sync(input13, displayCity1);
+    sync(input14, displayCity1);
+    sync(input15, displayCity1);
+
+    displayStory.classList.remove('hiddentext');
+>>>>>>> ed92c2761b74826c7ed1a2d965a98592cd271fb9
 }
 
 // // () => {
